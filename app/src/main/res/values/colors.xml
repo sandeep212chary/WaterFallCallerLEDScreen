@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC407A</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#EC407A</color>
+
+    <color name="color1">#ff050505</color>
+    <color name="color2">#ff545454</color>
+    <color name="color3">#ff878787</color>
+    <color name="color4">#ffbcbcbc</color>
+
+    <color name="colorPrimarytrans">#c1243949</color>
+    <color name="custom_main">#ff949f3f</color>
+    <color name="dark">#ff243949</color>
+    <color name="green">#ff2baf2b</color>
+    <color name="trans">#94243949</color>
+    <color name="white">#ffffffff</color>
+    <color name="windowBackground">#cb1a1e38</color>
+
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="main">#0458be</color>
+    <color name="light">#1675ea</color>
+    <color name="darkk">#04408f</color>
+
+
+    <color name="cat1">#455A64</color>
+    <color name="cat2">#d32f2f</color>
+    <color name="cat3">#C2185B</color>
+    <color name="cat4">#01579B</color>
+    <color name="cat5">#00796B</color>
+    <color name="cat6">#388E3C</color>
+    <color name="cat7">#AFB42B</color>
+    <color name="cat8">#FFA000</color>
+    <color name="red_e73a3d">#e73a3d</color>
+    <color name="cat9">#0097A7</color>
+    <color name="cat10">#5D4037</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="dot_light_screen4">#36ae40</color>
+
+    <color name="amber_500">#ff9e9e9e</color>
+    <color name="gray">#ff848383</color>
+    <color name="app_bg_color">#ffffffff</color>
+
+    <!-- Black -->
+    <color name="primary">@android:color/black</color>
+    <!-- Black -->
+    <color name="primary_dark">@android:color/black</color>
+    <!-- Blue A100 -->
+    <color name="accent">#82b1ff</color>
+    <!-- White -->
+    <color name="text_primary">@android:color/white</color>
+    <!-- White, 87% Opacity -->
+    <color name="text_secondary">#DEFFFFFF</color>
+
+</resources>

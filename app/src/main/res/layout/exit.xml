@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/recyclerView_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll1"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" />
+
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1"
+            android:drawableRight="@drawable/yes"
+            android:elevation="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Exit"
+            android:textAllCaps="true"
+            android:textColor="@color/icons"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1"
+            android:drawableRight="@drawable/home"
+            android:elevation="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Home"
+            android:textAllCaps="true"
+            android:textColor="@color/icons"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

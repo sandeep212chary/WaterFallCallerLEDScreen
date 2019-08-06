@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_10">10.0dip</dimen>
+    <dimen name="text_12">12.0dip</dimen>
+    <dimen name="text_13">13.0dip</dimen>
+    <dimen name="text_15">15.0dip</dimen>
+    <dimen name="text_5">5.0dip</dimen>
+    <dimen name="value_10">10.0dip</dimen>
+    <dimen name="value_12">12.0dip</dimen>
+    <dimen name="value_18">18.0dip</dimen>
+    <dimen name="value_2">2.0dip</dimen>
+    <dimen name="value_20">20.0dip</dimen>
+    <dimen name="value_3">3.0dip</dimen>
+    <dimen name="value_30">40.0dip</dimen>
+    <dimen name="value_4">4.0dip</dimen>
+    <dimen name="value_40">40.0dip</dimen>
+    <dimen name="value_5">5.0dip</dimen>
+    <dimen name="value_50">50.0dip</dimen>
+    <dimen name="value_70">70.0dip</dimen>
+    <dimen name="value_8">8.0dip</dimen>
+    <dimen name="value_80">80.0dip</dimen>
+
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="divider_vertical_margin">10dp</dimen>
+    <dimen name="profile_picture_size">12.0sp</dimen>
+
+    <dimen name="value_6">6.0dip</dimen>
+    <dimen name="value_150">150.0dip</dimen>
+    <dimen name="value_250">250.0dip</dimen>
+    <dimen name="value_200">200.0dip</dimen>
+</resources>

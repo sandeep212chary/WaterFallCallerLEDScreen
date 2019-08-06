@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:id="@+id/hedding"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn71">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hedding"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/enableTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Enable Color Call Screen"
+                android:textColor="#000"
+                android:textSize="14.0sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/callerIdIV"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/off_switch" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/devider" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vibTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Vibrate Phone  On Screen"
+                android:textColor="#000"
+                android:textSize="14.0sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/vibrateIV"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/off_switch" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/devider" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="20.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flaTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Flash  light  On/Off            "
+                android:textColor="#000"
+                android:textSize="14.0sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/flashIV"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dip"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/off_switch" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/speedTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Flash Speed"
+                android:textColor="#000"
+                android:textSize="14.0sp"
+                android:textStyle="italic" />
+
+            <SeekBar
+                android:id="@+id/flashSeek"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_toRightOf="@+id/speedTV"
+                android:max="1200"
+                android:maxHeight="2.0dip"
+                android:progressDrawable="@drawable/thumblerseek"
+                android:src="@drawable/off_switch"
+                android:thumb="@drawable/thumb" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/devider" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

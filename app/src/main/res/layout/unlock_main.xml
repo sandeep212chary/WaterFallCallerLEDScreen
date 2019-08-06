@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/btn41"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/img_thumb"
+        android:gravity="center"
+        android:text="Slide right to answer"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_thumb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/about"
+        android:src="@drawable/call_btn" />
+
+</RelativeLayout>
